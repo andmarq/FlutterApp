@@ -17,8 +17,8 @@ int sumDigits(int num) {
   }
   int sum = 0;
   while (num > 0) {
-    sum += num % 10; // Obtém o último dígito e soma
-    num ~/= 10; // Remove o último dígito
+    sum += num % 10; 
+    num ~/= 10; 
   }
   return sum;
 }
